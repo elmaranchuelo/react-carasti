@@ -1,0 +1,69 @@
+.profile-photo img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border: 2px solid #fff;
+  }
+  
+  .profile-container {
+      display: flex;
+      padding: 5em;
+  }
+  
+  .photo-label {
+      display: flex;
+      flex-direction: column;
+      padding: 2em;
+  }
+  
+  .photo-container {
+      width: 150px;
+      height: 150px;
+      padding: 2em;
+      text-align: center;
+  }
+  
+  .input-container {
+      border : 2px solid rgb(35, 99, 172);
+      border-radius: 20px;
+      text-align: center;
+      padding: 2em;
+  
+  }
+  
+  .input-container svg{
+      width: 40px; 
+      height: 40px; 
+      margin-right: 5px;
+  }
+  .subtext {
+      color: #919191;
+  }
+  
+  input {
+      display: none;
+    }
+
+    @media (max-width: 600px) {
+
+        .profile-container{
+    
+            flex-direction: column;
+    
+        }
+    
+        .photo-container {
+            width: 419px;
+        }
+        .profile-photo{
+            width: 419px;
+
+        }
+      }

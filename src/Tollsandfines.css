@@ -1,0 +1,17 @@
+.tolls-and-fines-container {
+    display: flex;
+    padding: 5em;
+}
+
+.line-container {
+    flex-direction: column;
+}
+
+@media (max-width: 600px) {
+
+    .tolls-and-fines-container{
+
+        flex-direction: column;
+
+    }
+  }
